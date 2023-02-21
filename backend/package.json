@@ -1,0 +1,35 @@
+{
+  "name": "google-api",
+  "version": "1.0.0",
+  "description": "Api to communicate with google sheets.",
+  "main": "hook_fufillment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dialogflow-webhook.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/marceloschots/nameta-2dppas.git"
+  },
+  "keywords": [
+    "google",
+    "api",
+    "sheets",
+    "medicin",
+    "journal"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/marceloschots/nameta-2dppas/issues"
+  },
+  "homepage": "https://gitlab.com/marceloschots/nameta-2dppas#readme",
+  "dependencies": {
+    "@assistant/conversation": "^3.6.0",
+    "express": "^4.17.1",
+    "firebase-functions": "^3.14.0",
+    "google-spreadsheet": "^3.1.15",
+    "googleapis": "^39.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
